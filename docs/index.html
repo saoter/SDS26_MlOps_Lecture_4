@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-03-27T13:40:47.950157+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-03-27T15:07:24.596850+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">7</div>
+        <div class="metric">1</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -180,9 +180,9 @@
 
   <script>
     const labels = ["2026-03-21", "2026-03-22", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27"];
-    const articleCounts = [22, 18, 57, 34, 29, 38, 9];
-    const avgScores = [0.1894, 0.178, 0.1992, 0.1917, 0.1484, 0.098, 0.1317];
-    const labelCounts = {"Bearish": [1, 0, 1, 0, 0, 0, 0], "Bullish": [3, 4, 9, 5, 4, 4, 0], "Neutral": [6, 7, 17, 12, 12, 12, 5], "Somewhat-Bearish": [0, 1, 2, 1, 3, 8, 0], "Somewhat-Bullish": [12, 6, 28, 16, 10, 14, 4]};
+    const articleCounts = [22, 18, 57, 34, 29, 39, 9];
+    const avgScores = [0.1894, 0.178, 0.1992, 0.1917, 0.1484, 0.1, 0.1317];
+    const labelCounts = {"Bearish": [1, 0, 1, 0, 0, 0, 0], "Bullish": [3, 4, 9, 5, 4, 4, 0], "Neutral": [6, 7, 17, 12, 12, 12, 5], "Somewhat-Bearish": [0, 1, 2, 1, 3, 8, 0], "Somewhat-Bullish": [12, 6, 28, 16, 10, 15, 4]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
