@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-05-28T16:24:19.088411+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-05-28T17:41:18.115679+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">4</div>
+        <div class="metric">2</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -165,9 +165,11 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Neutral (1)</h3>
+<h3>Neutral (3)</h3>
 <ul>
 <li><a href='https://hothardware.com/news/qualcomm-snapdragon-c-targets-300-ai-windows-laptops' target='_blank' rel='noopener noreferrer'>Qualcomm Snapdragon C Targets $300 AI Windows Laptops</a> <span class='meta'>— HotHardware</span></li>
+<li><a href='https://ca.investing.com/news/stock-market-news/zenatech-begins-development-of-ai-data-center-software-93CH-4663848' target='_blank' rel='noopener noreferrer'>ZenaTech begins development of AI data center software By Investing.com</a> <span class='meta'>— Investing.com Canada</span></li>
+<li><a href='https://www.investing.com/news/company-news/universal-corp-stock-hits-52week-low-at-4995-usd-93CH-4714823' target='_blank' rel='noopener noreferrer'>Universal Corp stock hits 52-week low at 49.95 USD</a> <span class='meta'>— Investing.com</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
@@ -198,9 +200,9 @@
 
   <script>
     const labels = ["2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28"];
-    const articleCounts = [15, 12, 24, 21, 36, 37, 19];
-    const avgScores = [0.2529, 0.2386, 0.2298, 0.2017, 0.1708, 0.1919, 0.3059];
-    const labelCounts = {"Bullish": [0, 5, 4, 4, 4, 5, 7], "Neutral": [1, 4, 8, 6, 17, 12, 1], "Somewhat-Bearish": [0, 1, 0, 0, 0, 1, 1], "Somewhat-Bullish": [14, 2, 12, 11, 15, 19, 10]};
+    const articleCounts = [15, 12, 24, 21, 36, 37, 21];
+    const avgScores = [0.2529, 0.2386, 0.2298, 0.2017, 0.1708, 0.1919, 0.2704];
+    const labelCounts = {"Bullish": [0, 5, 4, 4, 4, 5, 7], "Neutral": [1, 4, 8, 6, 17, 12, 3], "Somewhat-Bearish": [0, 1, 0, 0, 0, 1, 1], "Somewhat-Bullish": [14, 2, 12, 11, 15, 19, 10]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
