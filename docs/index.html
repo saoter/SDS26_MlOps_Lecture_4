@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-07-27T15:08:50.883658+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-07-27T16:32:25.639982+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">6</div>
+        <div class="metric">3</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -163,11 +163,14 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Neutral (3)</h3>
+<h3>Neutral (6)</h3>
 <ul>
 <li><a href='https://www.tradingkey.com/markets/stocks/sonm/earnings' target='_blank' rel='noopener noreferrer'>Sonim Technologies Inc (SONM) Earnings Forecast: Future EPS &amp; Revenue Growth Estimates</a> <span class='meta'>— TradingKey</span></li>
 <li><a href='https://www.tradingview.com/news/zacks:fbe40c941094b:0-alphabet-microsoft-meta-platforms-apple-and-amazon-are-part-of-zacks-earnings-preview/' target='_blank' rel='noopener noreferrer'>Alphabet, Microsoft, Meta Platforms, Apple and Amazon are part of Zacks Earnings Preview</a> <span class='meta'>— TradingView</span></li>
 <li><a href='https://www.marketbeat.com/instant-alerts/filing-carnegie-investment-counsel-sells-21257-shares-of-apple-inc-aapl-2026-07-27/' target='_blank' rel='noopener noreferrer'>Carnegie Investment Counsel Sells 21,257 Shares of Apple Inc. $AAPL</a> <span class='meta'>— MarketBeat</span></li>
+<li><a href='https://news.alphastreet.com/norwegian-cruise-line-holdings-nclh-q2-2026-preview-eps-est-0-39-reports-july-30/amp/' target='_blank' rel='noopener noreferrer'>Norwegian Cruise Line Holdings (NCLH) Q2 2026 Preview: EPS Est. $0.39, Reports July 30</a> <span class='meta'>— AlphaStreet</span></li>
+<li><a href='https://finance.yahoo.com/markets/stocks/articles/nvidia-apple-largest-company-end-134419034.html' target='_blank' rel='noopener noreferrer'>Will NVIDIA or Apple Be the Largest Company By Year’s End? — Here’s the Name I’m Putting My Chips On</a> <span class='meta'>— Yahoo Finance</span></li>
+<li><a href='https://finance.yahoo.com/markets/article/apple-overtakes-nvidia-as-most-valuable-company-as-iphone-maker-avoids-capex-pitfalls-150316032.html' target='_blank' rel='noopener noreferrer'>Apple stock he record to outperform &#39;Mag 7&#39; as iPhone maker avoids &#39;capex pitfalls&#39;</a> <span class='meta'>— Yahoo Finance</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
@@ -198,9 +201,9 @@
 
   <script>
     const labels = ["2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-25", "2026-07-26", "2026-07-27"];
-    const articleCounts = [61, 38, 38, 19, 14, 24, 18];
-    const avgScores = [0.1538, 0.2178, 0.133, 0.189, 0.0983, 0.2506, 0.2432];
-    const labelCounts = {"Bearish": [1, 0, 0, 0, 0, 0, 0], "Bullish": [9, 4, 2, 3, 0, 5, 5], "Neutral": [25, 10, 12, 7, 5, 8, 3], "Somewhat-Bearish": [2, 0, 6, 1, 2, 0, 1], "Somewhat-Bullish": [24, 24, 18, 8, 7, 11, 9]};
+    const articleCounts = [61, 38, 38, 19, 14, 24, 21];
+    const avgScores = [0.1538, 0.2178, 0.133, 0.189, 0.0983, 0.2506, 0.2038];
+    const labelCounts = {"Bearish": [1, 0, 0, 0, 0, 0, 0], "Bullish": [9, 4, 2, 3, 0, 5, 5], "Neutral": [25, 10, 12, 7, 5, 8, 6], "Somewhat-Bearish": [2, 0, 6, 1, 2, 0, 1], "Somewhat-Bullish": [24, 24, 18, 8, 7, 11, 9]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
